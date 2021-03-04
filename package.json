@@ -1,6 +1,6 @@
 {
   "name": "@desco/cli-header",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cli Header",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/descodifica/cli-header.git"
+    "url": "git+https://github.com/desco-npm/cli-header.git"
   },
   "keywords": [
     "CLI",
@@ -16,10 +16,7 @@
   ],
   "author": "Rafael A. R. Dias <eu@diasrafael.com.br>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/descodifica/cli-header/issues"
-  },
-  "homepage": "https://github.com/descodifica/cli-header#readme",
+  "homepage": "https://github.com/desco-npm/cli-header",
   "dependencies": {
     "clear": "^0.1.0",
     "clone": "^2.1.2",

@@ -1,6 +1,6 @@
 <div align="right">
-  <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+  <a href="README.md">
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -9,75 +9,66 @@
     <td><img src="https://i.ibb.co/rQP3kNb/cli-header.png"></td>
     <td>  
       <h1>@desco/cli-header</h1>
-      Pacote NPM que permite imprimir um cabeçalho para o programa de linha de comando.
+      NPM package that allows you to print a header for the command line program.
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.0.1" src="https://img.shields.io/static/v1?label=Versão&message=1.0.1&color=blue&style=for-the-badge">
+        <img alt="MIT License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge">
+        <img alt="Version 1.0.1" src="https://img.shields.io/static/v1?label=Version&message=1.0.1&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
-        🚀 Pronto para uso! 🚀
+        🚀 Ready to use! 🚀
       </h4>
     </td>
   </tr>
 </table>
 
-> <a href="https://github.com/desco-npm" target="_blank">Veja outros projetos NPM aqui.</a>
+> <a href="https://github.com/desco-npm" target="_blank">See other NPM projects here.</a>
 
-> <a href="https://github.com/descoifica" target="_blank">Veja outros projetos aqui.</a>
-
----
-
-## 📋 Tabela de conteúdos
-
-* [🛠️ Tecnologias](#Tecnologias)
-* [⚙️ Instalação](#Instalação)
-* [📦 Importação](#Importação)
-* [📚 Como Usar](#Como-Usar)
+> <a href="https://github.com/descoifica" target="_blank">See other projects here.</a>
 
 ---
 
-<a name="Tecnologias"></a>
+## 📋 Table of Contents
 
+* [✔️ Resources](#Resources)
+* [🛠️ Technology](#Technology)
+* [⚙️ Installation](#Installation)
+* [📚 Documentation](#Documentation)
 
-## 🛠️ Tecnologias
+---
 
-As seguintes tecnologias são utilizadas:
+<a name="Technology"></a>
+
+## 🛠️ Technology
+
+The following technologies are used:
 
 * [NodeJS](https://nodejs.org/en/);
-* [Moment](https://www.npmjs.com/package/moment);
 
 ---
 
-<a name="Instalação"></a>
+<a name="Installation"></a>
 
-## ⚙️ Instalação
+## ⚙️ Installation
 
 ```
 npm install --save @desco/cli-header
 ```
 
-> Note que será necessário ter o **NPM** instalado para o comando funcionar.
+> Note that it will be necessary to have **NPM** installed for the command to work.
 
 ---
 
-<a name="Importação"></a>
+<a name="Import"></a>
 
-### 📦 Importação
+### 📦 Import
 
-#### Node
 
-`const birthRangeByAge = require('@desco/cli-header')`
+`const cliHeader = require('@desco/cli-header')`
 
-#### Browse
+<a name="How-To-Use"></a>
 
-`import birthRangeByAge from '@desco/cli-header`
-
----
-
-<a name="Como-Usar"></a>
-
-### 📚 Como Usar
+### 📚 How to use
 
 ```
 const cliHeader = require('@desco/cliHeader)
@@ -85,25 +76,25 @@ const cliHeader = require('@desco/cliHeader)
 cliHeader({ title: 'AtlasJS v2.0.0'})
 ```
 
-#### Parâmetros Adicionais
+#### Additional Parameters
 
-É possível personalizar o cabeçalho passando parâmetros adicionais, veja eles:
+It is possible to customize the header by passing additional parameters, see them:
 
-| Nome | Tipo | Padrão | Descrição
-|---|---|---|---|---|
-| title | String | 'App Name v0.0.0' | Título a ser escrito
-| size | String / Number | '25%' | Tamanho do título. Se passado em string é considerado percentual. Se passado como inteiro, número de colunas.
-| align | String | 'center' | Alinhamento do cabeçalho | Header alignment |
-| line | String | '-' | Carácter a ser usado pra delimitar as linhas
-| column | String | '\|' | Carácter a ser usado pra delimitar as colunas
-leftTop | String | '/' | Carácter a ser usado para marcar o canto superior esquerdo
-rightTop | String | '\\' | Carácter a ser usado para marcar o canto superior direito
-leftBottom | String | '\\' | Carácter a ser usado para marcar o canto inferior esquerdo
-rightBottom | String | '/' | Carácter a ser usado para marcar o canto inferior direito
+| Name | Type | Standard | Description
+| --- | --- | --- | --- | --- |
+| title | String | 'App Name v0.0.0' | Title to be written
+| size | String / Number | '25% '| Title size. If passed in string it is considered a percentage. If passed as an integer, number of columns.
+| align | String | 'center' | Header alignment | Header alignment |
+| line | String | '-' | Character to be used to delimit the lines
+| column | String | '\ |' | Character to be used to delimit columns
+leftTop | String | '/' | Character to be used to mark the upper left corner
+rightTop | String | '\\' | Character to be used to mark the upper right corner
+leftBottom | String | '\\' | Character to be used to mark the bottom left corner
+rightBottom | String | '/' | Character to be used to mark the bottom right corner
 
 ---
 
-## Autor
+## Author
 
 <table>
   <tr>
