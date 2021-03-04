@@ -1,6 +1,6 @@
 {
   "name": "@desco/cli-header",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Cli Header",
   "main": "index.js",
   "scripts": {
