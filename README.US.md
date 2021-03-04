@@ -13,7 +13,7 @@
       <br /><br />
       <div align="center">
         <img alt="MIT License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge">
-        <img alt="Version 1.0.4" src="https://img.shields.io/static/v1?label=Version&message=1.0.4&color=blue&style=for-the-badge">
+        <img alt="Version 1.0.5" src="https://img.shields.io/static/v1?label=Version&message=1.0.5&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
         🚀 Ready to use! 🚀
@@ -51,7 +51,7 @@ The following technologies are used:
 
 ## ⚙️ Installation
 
-```
+```bash
 npm install --save @desco/cli-header
 ```
 
@@ -64,13 +64,15 @@ npm install --save @desco/cli-header
 ### 📦 Import
 
 
-`const cliHeader = require('@desco/cli-header')`
+```js
+const cliHeader = require('@desco/cli-header')
+```
 
 <a name="How-To-Use"></a>
 
 ### 📚 How to use
 
-```
+```js
 const cliHeader = require('@desco/cliHeader)
 
 cliHeader({ title: 'AtlasJS v2.0.0'})

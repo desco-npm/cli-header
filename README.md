@@ -13,7 +13,7 @@
       <br /><br />
       <div align="center">
         <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.0.4" src="https://img.shields.io/static/v1?label=Versão&message=1.0.4&color=blue&style=for-the-badge">
+        <img alt="Versão 1.0.5" src="https://img.shields.io/static/v1?label=Versão&message=1.0.5&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
         🚀 Pronto para uso! 🚀
@@ -52,7 +52,7 @@ As seguintes tecnologias são utilizadas:
 
 ## ⚙️ Instalação
 
-```
+```bash
 npm install --save @desco/cli-header
 ```
 
@@ -64,7 +64,9 @@ npm install --save @desco/cli-header
 
 ### 📦 Importação
 
-`const birthRangeByAge = require('@desco/cli-header')`
+```js
+const birthRangeByAge = require('@desco/cli-header')
+```
 
 ---
 
@@ -72,7 +74,7 @@ npm install --save @desco/cli-header
 
 ### 📚 Como Usar
 
-```
+```js
 const cliHeader = require('@desco/cliHeader)
 
 cliHeader({ title: 'AtlasJS v2.0.0'})
