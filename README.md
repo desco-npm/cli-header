@@ -62,7 +62,7 @@ npm install --save @desco/cli-header
 
 <a name="Importação"></a>
 
-### 📦 Importação
+## 📦 Importação
 
 ```js
 const birthRangeByAge = require('@desco/cli-header')
@@ -72,7 +72,7 @@ const birthRangeByAge = require('@desco/cli-header')
 
 <a name="Como-Usar"></a>
 
-### 📚 Como Usar
+## 📚 Como Usar
 
 ```js
 const cliHeader = require('@desco/cliHeader)
@@ -80,7 +80,7 @@ const cliHeader = require('@desco/cliHeader)
 cliHeader({ title: 'AtlasJS v2.0.0'})
 ```
 
-#### Parâmetros Adicionais
+### Parâmetros Adicionais
 
 É possível personalizar o cabeçalho passando parâmetros adicionais, veja eles:
 

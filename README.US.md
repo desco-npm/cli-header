@@ -70,7 +70,7 @@ const cliHeader = require('@desco/cli-header')
 
 <a name="How-To-Use"></a>
 
-### 📚 How to use
+## 📚 How to use
 
 ```js
 const cliHeader = require('@desco/cliHeader)
@@ -78,7 +78,7 @@ const cliHeader = require('@desco/cliHeader)
 cliHeader({ title: 'AtlasJS v2.0.0'})
 ```
 
-#### Additional Parameters
+### Additional Parameters
 
 It is possible to customize the header by passing additional parameters, see them:
 
