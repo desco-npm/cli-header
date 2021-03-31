@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=Read+in+American+English&color=red&style=for-the-badge" />
   </a>
 </div>
 
@@ -12,8 +12,8 @@
       Pacote NPM que permite imprimir um cabeçalho para o programa de linha de comando.
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.0.5" src="https://img.shields.io/static/v1?label=Versão&message=1.0.5&color=blue&style=for-the-badge">
+        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licen%C3%A7a&message=MIT&color=green&style=for-the-badge">
+        <img alt="Versão 1.0.5" src="https://img.shields.io/static/v1?label=Vers%C3%A3o&message=1.0.5&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
         🚀 Pronto para uso! 🚀
@@ -30,21 +30,20 @@
 
 ## 📋 Tabela de conteúdos
 
-* [🛠️ Tecnologias](#Tecnologias)
-* [⚙️ Instalação](#Instalação)
-* [📦 Importação](#Importação)
-* [📚 Como Usar](#Como-Usar)
+- [🛠️ Tecnologias](#Tecnologias)
+- [⚙️ Instalação](#Instalação)
+- [📦 Importação](#Importação)
+- [📚 Como Usar](#Como-Usar)
 
 ---
 
 <a name="Tecnologias"></a>
 
-
 ## 🛠️ Tecnologias
 
 As seguintes tecnologias são utilizadas:
 
-* [NodeJS](https://nodejs.org/en/);
+- [NodeJS](https://nodejs.org/en/);
 
 ---
 
@@ -65,7 +64,7 @@ npm install --save @desco/cli-header
 ## 📦 Importação
 
 ```js
-const birthRangeByAge = require('@desco/cli-header')
+const birthRangeByAge = require("@desco/cli-header");
 ```
 
 ---
@@ -84,17 +83,17 @@ cliHeader({ title: 'AtlasJS v2.0.0'})
 
 É possível personalizar o cabeçalho passando parâmetros adicionais, veja eles:
 
-| Nome | Tipo | Padrão | Descrição
-|---|---|---|---
-| title | String | 'App Name v0.0.0' | Título a ser escrito
-| size | String / Number | '25%' | Tamanho do título. Se passado em string é considerado percentual. Se passado como inteiro, número de colunas.
-| align | String | 'center' | Alinhamento do cabeçalho | Header alignment |
-| line | String | '-' | Carácter a ser usado pra delimitar as linhas
-| column | String | '\|' | Carácter a ser usado pra delimitar as colunas
-leftTop | String | '/' | Carácter a ser usado para marcar o canto superior esquerdo
-rightTop | String | '\\' | Carácter a ser usado para marcar o canto superior direito
-leftBottom | String | '\\' | Carácter a ser usado para marcar o canto inferior esquerdo
-rightBottom | String | '/' | Carácter a ser usado para marcar o canto inferior direito
+| Nome        | Tipo            | Padrão            | Descrição                                                                                                     |
+| ----------- | --------------- | ----------------- | ------------------------------------------------------------------------------------------------------------- | ---------------- |
+| title       | String          | 'App Name v0.0.0' | Título a ser escrito                                                                                          |
+| size        | String / Number | '25%'             | Tamanho do título. Se passado em string é considerado percentual. Se passado como inteiro, número de colunas. |
+| align       | String          | 'center'          | Alinhamento do cabeçalho                                                                                      | Header alignment |
+| line        | String          | '-'               | Carácter a ser usado pra delimitar as linhas                                                                  |
+| column      | String          | '\|'              | Carácter a ser usado pra delimitar as colunas                                                                 |
+| leftTop     | String          | '/'               | Carácter a ser usado para marcar o canto superior esquerdo                                                    |
+| rightTop    | String          | '\\'              | Carácter a ser usado para marcar o canto superior direito                                                     |
+| leftBottom  | String          | '\\'              | Carácter a ser usado para marcar o canto inferior esquerdo                                                    |
+| rightBottom | String          | '/'               | Carácter a ser usado para marcar o canto inferior direito                                                     |
 
 ---
 
@@ -117,10 +116,10 @@ rightBottom | String | '/' | Carácter a ser usado para marcar o canto inferior 
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Geral @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Geral&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">

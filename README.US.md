@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md">
-    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=Ler+em+Português+do+Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -30,10 +30,10 @@
 
 ## 📋 Table of Contents
 
-* [✔️ Resources](#Resources)
-* [🛠️ Technology](#Technology)
-* [⚙️ Installation](#Installation)
-* [📚 Documentation](#Documentation)
+- [✔️ Resources](#Resources)
+- [🛠️ Technology](#Technology)
+- [⚙️ Installation](#Installation)
+- [📚 Documentation](#Documentation)
 
 ---
 
@@ -43,7 +43,7 @@
 
 The following technologies are used:
 
-* [NodeJS](https://nodejs.org/en/);
+- [NodeJS](https://nodejs.org/en/);
 
 ---
 
@@ -63,9 +63,8 @@ npm install --save @desco/cli-header
 
 ### 📦 Import
 
-
 ```js
-const cliHeader = require('@desco/cli-header')
+const cliHeader = require("@desco/cli-header");
 ```
 
 <a name="How-To-Use"></a>
@@ -82,17 +81,17 @@ cliHeader({ title: 'AtlasJS v2.0.0'})
 
 It is possible to customize the header by passing additional parameters, see them:
 
-| Name | Type | Standard | Description
-| --- | --- | --- | ---
-| title | String | 'App Name v0.0.0' | Title to be written
-| size | String / Number | '25% '| Title size. If passed in string it is considered a percentage. If passed as an integer, number of columns.
-| align | String | 'center' | Header alignment | Header alignment |
-| line | String | '-' | Character to be used to delimit the lines
-| column | String | '\ |' | Character to be used to delimit columns
-leftTop | String | '/' | Character to be used to mark the upper left corner
-rightTop | String | '\\' | Character to be used to mark the upper right corner
-leftBottom | String | '\\' | Character to be used to mark the bottom left corner
-rightBottom | String | '/' | Character to be used to mark the bottom right corner
+| Name        | Type            | Standard          | Description                                                                                                |
+| ----------- | --------------- | ----------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| title       | String          | 'App Name v0.0.0' | Title to be written                                                                                        |
+| size        | String / Number | '25% '            | Title size. If passed in string it is considered a percentage. If passed as an integer, number of columns. |
+| align       | String          | 'center'          | Header alignment                                                                                           | Header alignment                        |
+| line        | String          | '-'               | Character to be used to delimit the lines                                                                  |
+| column      | String          | '\                | '                                                                                                          | Character to be used to delimit columns |
+| leftTop     | String          | '/'               | Character to be used to mark the upper left corner                                                         |
+| rightTop    | String          | '\\'              | Character to be used to mark the upper right corner                                                        |
+| leftBottom  | String          | '\\'              | Character to be used to mark the bottom left corner                                                        |
+| rightBottom | String          | '/'               | Character to be used to mark the bottom right corner                                                       |
 
 ---
 
@@ -115,10 +114,10 @@ rightBottom | String | '/' | Character to be used to mark the bottom right corne
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
