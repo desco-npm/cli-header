@@ -83,17 +83,17 @@ cliHeader({ title: 'AtlasJS v2.0.0'})
 
 É possível personalizar o cabeçalho passando parâmetros adicionais, veja eles:
 
-| Nome        | Tipo            | Padrão            | Descrição                                                                                                     |
+| Nome        | Tipo            | Padrão            | Descrição                                                                                                     |                  |
 | ----------- | --------------- | ----------------- | ------------------------------------------------------------------------------------------------------------- | ---------------- |
-| title       | String          | 'App Name v0.0.0' | Título a ser escrito                                                                                          |
-| size        | String / Number | '25%'             | Tamanho do título. Se passado em string é considerado percentual. Se passado como inteiro, número de colunas. |
+| title       | String          | 'App Name v0.0.0' | Título a ser escrito                                                                                          |                  |
+| size        | String / Number | '25%'             | Tamanho do título. Se passado em string é considerado percentual. Se passado como inteiro, número de colunas. |                  |
 | align       | String          | 'center'          | Alinhamento do cabeçalho                                                                                      | Header alignment |
-| line        | String          | '-'               | Carácter a ser usado pra delimitar as linhas                                                                  |
-| column      | String          | '\|'              | Carácter a ser usado pra delimitar as colunas                                                                 |
-| leftTop     | String          | '/'               | Carácter a ser usado para marcar o canto superior esquerdo                                                    |
-| rightTop    | String          | '\\'              | Carácter a ser usado para marcar o canto superior direito                                                     |
-| leftBottom  | String          | '\\'              | Carácter a ser usado para marcar o canto inferior esquerdo                                                    |
-| rightBottom | String          | '/'               | Carácter a ser usado para marcar o canto inferior direito                                                     |
+| line        | String          | '-'               | Carácter a ser usado pra delimitar as linhas                                                                  |                  |
+| column      | String          | '\|'              | Carácter a ser usado pra delimitar as colunas                                                                 |                  |
+| leftTop     | String          | '/'               | Carácter a ser usado para marcar o canto superior esquerdo                                                    |                  |
+| rightTop    | String          | '\\'              | Carácter a ser usado para marcar o canto superior direito                                                     |                  |
+| leftBottom  | String          | '\\'              | Carácter a ser usado para marcar o canto inferior esquerdo                                                    |                  |
+| rightBottom | String          | '/'               | Carácter a ser usado para marcar o canto inferior direito                                                     |                  |
 
 ---
 

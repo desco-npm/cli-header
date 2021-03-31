@@ -82,12 +82,12 @@ cliHeader({ title: 'AtlasJS v2.0.0'})
 It is possible to customize the header by passing additional parameters, see them:
 
 | Name        | Type            | Standard          | Description                                                                                                |
-| ----------- | --------------- | ----------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| ----------- | --------------- | ----------------- | ---------------------------------------------------------------------------------------------------------- |
 | title       | String          | 'App Name v0.0.0' | Title to be written                                                                                        |
 | size        | String / Number | '25% '            | Title size. If passed in string it is considered a percentage. If passed as an integer, number of columns. |
-| align       | String          | 'center'          | Header alignment                                                                                           | Header alignment                        |
+| align       | String          | 'center'          | Header alignment                                                                                           |
 | line        | String          | '-'               | Character to be used to delimit the lines                                                                  |
-| column      | String          | '\                | '                                                                                                          | Character to be used to delimit columns |
+| column      | String          | '\                | '                                                                                                          |
 | leftTop     | String          | '/'               | Character to be used to mark the upper left corner                                                         |
 | rightTop    | String          | '\\'              | Character to be used to mark the upper right corner                                                        |
 | leftBottom  | String          | '\\'              | Character to be used to mark the bottom left corner                                                        |
